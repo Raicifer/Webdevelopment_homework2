@@ -1,0 +1,165 @@
+/*Css Reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*CSS Variables*/
+
+:root {
+    --navbar-height: 59px;
+}
+
+
+/*Navigation Bar*/
+
+.box1 {
+    background-color: rgb(228, 192, 199);
+    width: 50vw;
+    height: 49vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 373px;
+    margin-top: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(228, 192, 199);
+    border-radius: 15px;
+}
+
+#navbar::before {
+    top: 0px;
+    left: 0px;
+    content: "";
+}
+
+
+/*Navigation Bar:Logo and Image*/
+
+#logo {
+    margin: 34px 65px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+/*Navigation Bar:List*/
+
+#navbar ul {
+    display: flex;
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    margin-left: 13%;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#navbar ul li a {
+    color: black;
+    display: block;
+    padding: 15px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: white;
+    background-color: rgb(198, 58, 84);
+    transition-duration: 1s;
+}
+
+.box2 {
+    background-color: rgb(230, 238, 162);
+    width: 50vw;
+    height: 49vh;
+    display: flex;
+    margin-left: 373px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.control {
+    padding: 20px;
+}
+
+.left #change {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.circle {
+    background-color: rgb(198, 58, 84);
+    color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+    /* width: 60px;
+    border-radius: 1000px; */
+    width: 58px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.circle:hover {
+    background-color: rgb(205, 80, 103);
+    cursor: pointer;
+}
+
+.right img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control {
+    display: flex;
+}
+
+.first {
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second {
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.first img {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.sec1 {
+    display: flex;
+    height: 100px;
+}
+
+.sec1 h1 {
+    margin: 10px;
+    padding: 10px;
+}
